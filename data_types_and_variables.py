@@ -87,3 +87,20 @@ order_less_than_or_equal2 = False
 product_offer = (not order_less_than_or_equal2)
 
 print(product_offer)
+
+# Use the following code to follow the instructions below:
+
+# username = 'codeup'
+# password = 'notastrongpassword'
+# Create a variable that holds a boolean value for each of the following conditions:
+
+# the password must be at least 5 characters
+# the username must be no more than 20 characters
+# the password must not be the same as the username
+# bonus neither the username or password can start or end with whitespace
+
+username = 'codeup'
+password = 'notastrongpassword'
+len(password) >= 5
+len(username) <= 20
+password == username
